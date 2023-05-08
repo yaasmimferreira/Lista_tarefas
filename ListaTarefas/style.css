@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+    background-image: url(pexels-dominika-roseclay-3104786.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Concert One';
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.header button {
+    position: absolute;
+    right: 31%;
+    margin-top: -30px;
+
+}
+
+.inserirTexto {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 100%;
+}
+
+.inserir {
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+}
+
+button {
+    width: 10%;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.inserir img {
+    width: 25px;
+}
+
+.lista img {
+    width: 25px;
+
+}
+
+.linha {
+    border-bottom: 1px solid black;
+    width: 480px;
+    margin: 0 auto;
+}
+
+.divLi {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow: 6px 5px 10px 0px grey; */
+    background-color: lightgray;
+    display: flex;
+    margin: 15px auto;
+    width: 40%;
+}
+
+.divLi span {
+    width: 80%;
+    color: dimgray;
+    font-family: 'Concert One';
+    font-size: 19px;
+    margin: 0px 9px;
+}
+
+.divLi input {
+    outline: none;
+    accent-color: currentcolor;
+}
+
+.divLi i {
+    font-size: 22px;
+    color: brown;
+}
+
+
+.line-through {
+    text-decoration: line-through;
+}
+
+
+@media (max-width: 775px) {
+    input {
+        width: 70%;
+    }
+
+    .divInsert button {
+        width: 30%;
+    }
+
+    i {
+        font-size: 30px;
+        padding: 0px;
+    }
+
+    p {
+        font-size: x-large;
+    }
+}
